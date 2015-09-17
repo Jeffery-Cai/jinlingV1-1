@@ -1,0 +1,96 @@
+金陵数据库设计思想：      > OK ：--------是完成的意思----------
+		
+		以js_为前缀设计的表名
+
+	// 设计表    >  OK
+			广告图：jl_ad > 
+							ad_id + 
+							ad_name +
+							ad_link +
+							ad_img_url +
+
+			导航菜单：jl_nav >
+								nav_id +
+								mav_name + 
+								nav_link +
+								nav_order +
+
+			友情链接: jl_friend >
+								friend_id +
+								friend_name +
+								friend_link +
+
+
+			产品展示: jl_products >
+								products_id +
+								products_name +
+								products_link +
+								products_info +
+
+			客户留言: jl_meg > 
+							 	meg_id +
+							 	meg_name +
+							 	meg_content +
+
+			后台管理员: jl_admin >
+									admin_id +
+									admin_username +
+									admin_password +
+									admin_email +
+
+			公司新闻: jl_news >
+								news_id +
+								news_name +
+								news_link +
+								news_content +
+
+			网站设置: jl_option >
+								option_id +
+								option_name +
+								
+
+			单页页面：jl_document
+				联系我们
+				公司简介
+
+1、开始开发步骤
+
+	1/包含header.php与footer.php文件 > OK
+	2/包含函数 > OK
+
+	3/导航管理  > OK
+			前台输出 > OK
+			后台管理基本功能 > OK 
+
+	4/产品管理 > OK
+			前台输出 > OK
+			后台管理基本功能 > OK 
+
+	5/ 新闻管理 > OK
+			前台输出 > OK
+			后台管理基本功能 > OK 
+
+	6/ 留言管理 > OK
+			前台基本功能 > OK
+			后台管理基本功能 > OK 
+
+	7/ 通知公告 > OK
+			前台输出 > OK
+			后台管理基本功能 > OK 
+
+	8/ 友情链接 > OK
+			前台输出 > OK
+			后台管理基本功能 > OK
+
+	9/ 登陆 > OK
+			后台管理基本功能 > OK
+
+	10/ 网站设置 > OK
+			前台输出 > OK
+			后台管理基本功能 > OK
+
+	11/ 后台首页显示总数 > 	OK
+				后台管理基本功能 > OK
+
+	12/ 首页公司简介 >	NO-	OK
+				

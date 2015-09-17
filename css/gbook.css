@@ -1,0 +1,218 @@
+/*通用样式 开始*/
+.clear{
+	clear:both !important;
+}
+.last{
+	border:none;
+	background:none !important;
+}
+/*通用样式 结束*/
+
+/* 布局样式 开始 */
+#container{
+	width:1024px;
+	background:url(../images/bg-top.png) no-repeat center top;
+	padding-bottom: 72px;
+	
+	margin:0 auto;
+}
+/* 布局样式 结束 */
+
+/* 头部样式 开始 */
+#header{
+	width:1024px;
+	height:103px;
+}	
+#header .top{
+	float:right;
+	width:156px;
+	height:27px;
+	margin:45px 74px 0 0;
+}
+#header .top li{
+	float:left;
+	width:78px;
+	font-size:11px;
+	line-height:27px;
+	text-indent:26px;
+}
+#header .top li a{
+	color:#999;
+}
+#header .navigator{
+	margin-left:46px;
+}
+#header .navigator img{
+	float:left;
+}
+#header .navigator ul{
+	float:left;
+	width:910px;
+	height:31px;
+	background:url(../images/bg-index-navigator.png);
+}
+#header .navigator ul li{
+	float:left;
+	width:91px;
+	height:31px;
+	font-size:11px;
+	text-align:center;
+	line-height:31px;
+	background:url(../images/bg-index-navigator-list.png) no-repeat right center;
+}
+#header .navigator li a{
+	color:white;
+} 
+#header .navigator .lastLi{
+	float:right;
+	width:172px;
+	height:23px;
+	font-family:Arial;
+	font-size:8px;
+	color:white;
+	text-indent:16px;
+	line-height:23px;
+	padding-top:8px;
+	background:url(../images/header-clockLogo.png) no-repeat left center;
+}
+#header .navigator li a:hover{
+	color:#99ff66;
+}
+/* 头部样式 结束 */
+
+/* 内容样式 开始 */
+#main .content{
+	width:913px;
+	height:512px;
+	margin-left:46px;
+	background:url(../images/bg-index-content.png);
+}
+#main .content .contLeft{
+	float:left;
+	width:628px;
+	height:208px;
+}
+#main .content .left{
+	float:left;
+	width:146px;
+	height:26px;
+	font-family:'黑体';
+	font-size:12px;
+	font-weight:bold;
+	line-height:26px;
+	border:1px solid #ccc;
+	background:url(../images/bg-index-main-title-list.png);
+}
+#main .content .left span{
+	display:inline-block;
+	margin-left:4px;
+}
+#main .content .right{
+	float:left;
+	width:462px;
+	height:26px;
+	border-top:1px solid #e5eef2;
+	border-bottom:1px solid #ccc;
+}
+#main .contLeft .name{
+	margin:13px 0 0 18px;
+}
+#main .contLeft .name label{
+	font-size:11px;
+	color:#666;
+}
+#main .contLeft .name input{
+	width:152px;
+	height:21px;
+	border:1px solid #ccc;
+}
+#main .contLeft .text{
+	margin:7px 0 0 18px;
+}
+#main .contLeft .text label{
+	float:left;
+	font-size:11px;
+	color:#666;
+}
+#main .contLeft .text textarea{
+	width:540px;
+	height:135px;
+	margin-left:8px;
+	border:1px solid #ccc;
+}
+#main .contRight{
+	float:right;
+	width:216px;
+	height:349px;
+	margin:11px 10px 0 0;
+}
+#main .contRight .topTit{
+	width:214px;
+	height:41px;
+	border:1px solid #cecfcf;
+	background:url(../images/bg-about-contright-write.png);
+}
+#main .contRight .topTit img{
+	float:left;
+	margin:4px 19px 0 7px;
+}
+#main .contRight .topTit span{
+	float:left;
+	font-family:'黑体';
+	font-size:16px;
+	color:#3366cc;
+	line-height:41px;
+}
+#main .contRight .rightBox{
+	margin-top:9px;
+	width:214px;
+	height:143px;
+	border:1px solid #ccc;
+}
+#main .contRight .rightBox h5{
+	width:214px;
+	border:none;
+}
+#main .rightBox li{
+	float:left;
+	width:188px;
+	height:30px;
+	font-size:11px;
+	text-indent:17px;
+	line-height:30px;
+	margin-left:8px;
+	border-bottom:1px dashed #ccc;
+	background:url(../images/bg-index-righttop-list.png) no-repeat scroll 5px center;
+}
+#main .rightBox li a{
+	float:left;
+	font-family:'黑体';
+	color:#666;
+}
+#nav{
+	width:913px;
+	height:5px;
+	margin-left:46px;
+	background:url(../images/index-footer-nav.png);
+}
+/* 内容样式 结束 */
+
+/* 底部样式 开始 */
+#footer{
+	width:913px;
+	margin-left:46px;
+	border-top:4px;
+	font-family:'黑体';
+	font-size:11px;
+	color:#666;
+	line-height:21px;
+}
+#footer p{
+	float:left;
+	margin:12px 0 0 18px;
+}
+#footer img{
+	float:right;
+	margin:11px 7px 0 0;
+}
+/* 底部样式 结束 */
